@@ -130,9 +130,14 @@ export default function Footer() {
           transition={{ duration: 0.7, ease: [0.25, 0.1, 0.25, 1] }}
         >
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-[#B3B3B3] text-sm text-center md:text-left">
-              &copy; {currentYear} Sultan Enterprises. All rights reserved.
-            </p>
+            <div className="flex flex-col gap-2">
+              <p className="text-[#B3B3B3] text-sm text-center md:text-left">
+                &copy; {currentYear} Sultan Enterprises. All rights reserved.
+              </p>
+              <p className="text-[#B3B3B3] text-sm text-center md:text-left">
+                &copy; {currentYear} Made by Subhan Khan. All rights reserved.
+              </p>
+            </div>
             <p className="text-[#B3B3B3] text-sm text-center md:text-right">
               CEO: <span className="text-[#D4AF37] font-semibold">Aqeel Sultan</span>
             </p>
