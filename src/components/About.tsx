@@ -13,7 +13,7 @@ export default function About() {
           transition={{ duration: 0.8, ease: [0.25, 0.1, 0.25, 1] }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            About Sultan Enterprises
+            About Sultan's Enterprises
           </h2>
           <motion.div 
             className="w-24 h-1 bg-[#D4AF37] mx-auto"
