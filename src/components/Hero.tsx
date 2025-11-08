@@ -53,7 +53,7 @@ export default function Hero() {
             }}
           >
             <p className="text-lg font-medium mb-2 text-[#B3B3B3]">Chief Executive Officer</p>
-            <p className="text-3xl font-bold text-white">AQEEL SULTAN</p>
+            <p className="text-3xl font-bold text-white">M.AQEEL SULTAN</p>
           </motion.div>
 
           <motion.div 
